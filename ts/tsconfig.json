@@ -1,0 +1,29 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"allowJs": false,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"module": "commonjs",
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noResolve": true,
+		"outDir": "../js",
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"target": "es6"
+	},
+	"files": [
+		"math_tools.ts",
+		"vector.ts",
+		"rng.ts",
+		"sampling.ts",
+		"ray.ts",
+		"sphere.ts",
+		"specular.ts",
+		"image_io.ts",
+		"ts-smallpt.ts"
+	]
+}
