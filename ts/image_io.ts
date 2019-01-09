@@ -8,7 +8,7 @@ function write_ppm(w: number, h: number, Ls: Vector3[]): void {
             data += to_byte(L.x, GAMMA) + " " + to_byte(L.y, GAMMA) + " " + to_byte(L.z, GAMMA) + " ";
         }
     }
-    download_file(data, "ts-smallpt.ppm", "text/plain");
+    download_file(data, "ts-image.ppm", "text/plain");
 }
 
 interface HTMLAnchorElement {
