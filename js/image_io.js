@@ -7,7 +7,7 @@ function write_ppm(w, h, Ls) {
             data += to_byte(L.x, GAMMA) + " " + to_byte(L.y, GAMMA) + " " + to_byte(L.z, GAMMA) + " ";
         }
     }
-    download_file(data, "ts-smallpt.ppm", "text/plain");
+    download_file(data, "ts-image.ppm", "text/plain");
 }
 function download_file(data, fname, type) {
     let file = new Blob([data], { type: type });
